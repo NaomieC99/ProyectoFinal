@@ -1,0 +1,43 @@
+<div class="cover">
+
+    <div class="page-header">
+        <h3>Iniciar Sesion</h3>
+    </div>
+    
+    <form [formGroup]="formularioLogin" (ngSubmit)="submit()" >
+    
+        <div class="mb-3">
+            <label for="nombre" class="form-label"> Rut</label>
+            <input type="rut"  formControlName="rut" placeholder="Ej: 12345678-9" class="form-control">
+            <span *ngIf="this.formularioLogin.get('rut')?.errors?.['required']">
+                (El nombre no puede quedar vacío)
+            </span>
+            <span *ngIf="this.formularioLogin.get('rut')?.errors?.['minlength']">
+                (Formato invalido)
+            </span>
+            <span *ngIf="this.formularioLogin.get('rut')?.errors?.['maxlength']">
+                (Formato invalido)
+            </span>
+ 
+            
+        </div>
+    
+        <div class="mb-3">
+            <label for="password" class="form-label"> Contraseña </label>
+            <input type="password"  formControlName="password" placeholder="Ingrese contraseña" class="form-control">
+            <span *ngIf="this.formularioLogin.get('password')?.errors?.['required']">
+                (El campo no puede quedar vacío)
+            </span>
+            <span *ngIf="this.formularioLogin.get('password')?.errors?.['minlength']">
+                (Debe tener mínimo 8 caracteres)
+              </span>
+        </div>
+      
+        <p>
+            <button type="submit" [disabled]="formularioLogin.invalid" [routerLink]="['/funciones']" routerLink="router-link-active">Ingresar</button>
+        </p>
+
+
+    </form>
+    <div>{{resultado}} </div>
+</div>

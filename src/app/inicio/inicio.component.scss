@@ -1,0 +1,51 @@
+section {
+    width: 10%;
+    height: 30%;
+    margin-left: 0%;
+    align-items: flex-start;
+}
+
+a:link, a:visited,  a:hover, a:active {
+  color: aliceblue;
+  text-decoration: none;
+}
+.Iniciar {
+  margin-top: 110px;
+  position: absolute;
+  width: 150px;
+  height: 39px;
+  right: 200px;
+  top: 50px;
+  background-color: #3C8190;
+  border-radius: 10px;
+}
+.Calendario {
+  margin-top: 210px;
+  position: absolute;
+  width: 150px;
+  height: 39px;
+  right: 200px;
+  top: 50px;
+  background-color: #3C8190;
+  border-radius: 10px;
+}
+.RegistrarPaciente {
+  margin-top: 310px;
+  position: absolute;
+  width: 150px;
+  height: 39px;
+  right: 200px;
+  top: 50px;
+  background-color: #3C8190;
+  border-radius: 10px;
+}
+.Reservar {
+  margin-top: 410px;
+  position: absolute;
+  width: 150px;
+  height: 39px;
+  right: 200px;
+  top: 50px;
+  background-color: #3C8190;
+  border-radius: 10px;
+}

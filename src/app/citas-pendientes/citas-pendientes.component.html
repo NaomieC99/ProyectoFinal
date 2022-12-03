@@ -1,0 +1,63 @@
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+
+<div class="container">
+
+    <div class="page-header">
+        <h3>Citas pendientes</h3>
+    </div>
+
+
+    <div class="agenda">
+        <div class="table-responsive">
+            <table class="table table-condensed table-bordered">
+                <thead>
+                    <tr>
+                        <th>Fecha</th>
+                        <th>Hora</th>
+                        <th>Cita Agendada</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td class="agenda-date" class="active" rowspan="1">
+                            <div class="dayofmonth">13</div>
+                            <div class="dayofweek">Jueves</div>
+                            <div class="shortdate text-muted">Octubre, 2022</div>
+                        </td>
+                        <td class="agenda-time">
+                            11:30 AM
+                        </td>
+                        <td class="agenda-events">
+                            <div class="agenda-event">
+                                Medicina General: Dr Jose Fuentes
+                                <button type="submit" class="btn-primary">Cancelar cita </button>
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <!-- Multiple events in a single day (note the rowspan) -->
+                    <tr>
+                        <td class="agenda-date" class="active" rowspan="3">
+                            <div class="dayofmonth">18</div>
+                            <div class="dayofweek">Martes</div>
+                            <div class="shortdate text-muted">Octubre, 2022</div>
+                        </td>
+                        <td class="agenda-time">
+                            15:00 PM 
+                        </td>
+                        <td class="agenda-events">
+                            <div class="agenda-event">
+                                Odontología: Dra. Valentina Ramirez
+                                <button type="submit" class="btn-primary">Cancelar cita </button>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

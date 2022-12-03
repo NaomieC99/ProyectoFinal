@@ -1,0 +1,39 @@
+<div class="container">
+ 
+    <div class="content">
+        <h2>Informacion Personal</h2> 
+        <br>
+        <p>
+            Nombres: Juan Manuel
+        </p>
+        <p>
+            Apellidos: Perez Martinez
+        </p>
+        <p>
+            Rut: 7439284-5
+        </p>
+        <p>
+            Correo electrónico: juan@mail.cl
+        </p>
+        <p>
+            Telefono: 9 87651234
+        </p>                 
+    </div>
+</div>
+
+<div class="botones">
+    <p>
+        <button type="button" class="Agendar">
+        <a [routerLink]="['/calendario']" routerLink="router-link-active">Agendar cita</a>
+        </button>
+    </p>
+
+
+    <p>
+        <button type="button" class="Detalles">
+        <a [routerLink]="['/citas-pendientes']" routerLink="router-link-active">Ver mis citas</a>
+        </button>
+    </p>
+
+
+</div>
