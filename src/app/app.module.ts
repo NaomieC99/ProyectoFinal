@@ -18,7 +18,8 @@ import { CitasPendientesComponent } from './citas-pendientes/citas-pendientes.co
 
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule} from '@angular/common/http';
-import { InicioSesionComponent } from './inicio-sesion/inicio-sesion.component'
+import { InicioSesionComponent } from './inicio-sesion/inicio-sesion.component';
+import { AdminComponent } from './admin/admin.component'
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { InicioSesionComponent } from './inicio-sesion/inicio-sesion.component'
     ProfesionalesComponent,
     CitaComponent,
     CitasPendientesComponent,
-    InicioSesionComponent
+    InicioSesionComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
