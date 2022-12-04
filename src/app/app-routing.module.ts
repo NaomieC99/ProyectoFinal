@@ -11,6 +11,9 @@ import { CitasPendientesComponent } from './citas-pendientes/citas-pendientes.co
 import { InicioSesionComponent } from './inicio-sesion/inicio-sesion.component';
 import { AdminComponent } from './admin/admin.component';
 import { InicioSesionAdminComponent } from './inicio-sesion-admin/inicio-sesion-admin.component';
+import { AdminCitasAgendadasComponent } from './admin-citas-agendadas/admin-citas-agendadas.component';
+import { AdminConfiguracionesComponent } from './admin-configuraciones/admin-configuraciones.component';
+import { AdminProfesionalesComponent } from './admin-profesionales/admin-profesionales.component';
 
 
 
@@ -27,6 +30,10 @@ const routes: Routes = [
   { path: 'inicio-sesion', component: InicioSesionComponent},
   { path: 'admin', component: AdminComponent},
   { path: 'inicio-sesion-admin', component: InicioSesionAdminComponent},
+  { path: 'admin-citas-agendadas', component: AdminCitasAgendadasComponent},
+  { path: 'admin-configuraciones', component: AdminConfiguracionesComponent},
+  { path: 'admin-profesionales', component: AdminProfesionalesComponent},
+
   
 ];
 

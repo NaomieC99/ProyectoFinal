@@ -20,7 +20,10 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule} from '@angular/common/http';
 import { InicioSesionComponent } from './inicio-sesion/inicio-sesion.component';
 import { AdminComponent } from './admin/admin.component';
-import { InicioSesionAdminComponent } from './inicio-sesion-admin/inicio-sesion-admin.component'
+import { InicioSesionAdminComponent } from './inicio-sesion-admin/inicio-sesion-admin.component';
+import { AdminCitasAgendadasComponent } from './admin-citas-agendadas/admin-citas-agendadas.component';
+import { AdminProfesionalesComponent } from './admin-profesionales/admin-profesionales.component';
+import { AdminConfiguracionesComponent } from './admin-configuraciones/admin-configuraciones.component'
 
 @NgModule({
   declarations: [
@@ -37,7 +40,10 @@ import { InicioSesionAdminComponent } from './inicio-sesion-admin/inicio-sesion-
     CitasPendientesComponent,
     InicioSesionComponent,
     AdminComponent,
-    InicioSesionAdminComponent
+    InicioSesionAdminComponent,
+    AdminCitasAgendadasComponent,
+    AdminProfesionalesComponent,
+    AdminConfiguracionesComponent
   ],
   imports: [
     BrowserModule,
