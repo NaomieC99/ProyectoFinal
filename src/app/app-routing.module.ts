@@ -10,6 +10,7 @@ import { CitaComponent } from './cita/cita.component';
 import { CitasPendientesComponent } from './citas-pendientes/citas-pendientes.component';
 import { InicioSesionComponent } from './inicio-sesion/inicio-sesion.component';
 import { AdminComponent } from './admin/admin.component';
+import { InicioSesionAdminComponent } from './inicio-sesion-admin/inicio-sesion-admin.component';
 
 
 
@@ -25,6 +26,8 @@ const routes: Routes = [
   { path: 'citas-pendientes', component: CitasPendientesComponent},
   { path: 'inicio-sesion', component: InicioSesionComponent},
   { path: 'admin', component: AdminComponent},
+  { path: 'inicio-sesion-admin', component: InicioSesionAdminComponent},
+  
 ];
 
 @NgModule({

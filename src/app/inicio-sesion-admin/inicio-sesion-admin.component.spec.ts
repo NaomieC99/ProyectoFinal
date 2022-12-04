@@ -1,5 +1,4 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
 import { InicioSesionAdminComponent } from './inicio-sesion-admin.component';
 
 describe('InicioSesionAdminComponent', () => {
@@ -11,7 +10,9 @@ describe('InicioSesionAdminComponent', () => {
       declarations: [ InicioSesionAdminComponent ]
     })
     .compileComponents();
+  });
 
+  beforeEach(() => {
     fixture = TestBed.createComponent(InicioSesionAdminComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
