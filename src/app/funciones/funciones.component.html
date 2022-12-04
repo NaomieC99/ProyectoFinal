@@ -1,39 +1,29 @@
-<div class="container">
- 
-    <div class="content">
-        <h2>Informacion Personal</h2> 
-        <br>
+<div class="boton">
         <p>
-            Nombres: Juan Manuel
+            <button type="button" class="Agendar">
+            <a [routerLink]="['/calendario']" routerLink="router-link-active">Agendar cita</a>
+            </button>
         </p>
         <p>
-            Apellidos: Perez Martinez
+            <button type="button" class="Detalles">
+            <a [routerLink]="['/citas-pendientes']" routerLink="router-link-active">Ver mis citas</a>
+            </button>
         </p>
-        <p>
-            Rut: 7439284-5
-        </p>
-        <p>
-            Correo electrónico: juan@mail.cl
-        </p>
-        <p>
-            Telefono: 9 87651234
-        </p>                 
     </div>
-</div>
-
-<div class="botones">
-    <p>
-        <button type="button" class="Agendar">
-        <a [routerLink]="['/calendario']" routerLink="router-link-active">Agendar cita</a>
-        </button>
-    </p>
-
-
-    <p>
-        <button type="button" class="Detalles">
-        <a [routerLink]="['/citas-pendientes']" routerLink="router-link-active">Ver mis citas</a>
-        </button>
-    </p>
-
-
-</div>
+<br><br>
+<div class="card" style="width: 18rem;">
+    <br>
+    <img src="https://img.freepik.com/fotos-premium/hombre-alegre-envejecido-camiseta_23-2148036548.jpg?w=996" class="card-img-top" alt="...">
+    <div class="card-body">
+      <br>
+      <h5 class="card-title">Juan Perez Martínez</h5>
+      <br>
+      <p class="card-text">Rut: 7439284-5</p>
+      <p class="card-text">Correo electrónico: juan@mail.cl</p>
+      <p class="card-text">Telefono: 9 87651234</p>
+      <br>
+      <a href="#" class="btn btn-primary">Editar</a>
+      <br>
+    </div>
+  </div>
+  <br><br>
