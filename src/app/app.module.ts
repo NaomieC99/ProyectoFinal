@@ -23,7 +23,8 @@ import { AdminComponent } from './admin/admin.component';
 import { InicioSesionAdminComponent } from './inicio-sesion-admin/inicio-sesion-admin.component';
 import { AdminCitasAgendadasComponent } from './admin-citas-agendadas/admin-citas-agendadas.component';
 import { AdminProfesionalesComponent } from './admin-profesionales/admin-profesionales.component';
-import { AdminConfiguracionesComponent } from './admin-configuraciones/admin-configuraciones.component'
+import { AdminConfiguracionesComponent } from './admin-configuraciones/admin-configuraciones.component';
+import { EditarPerfilUsuarioComponent } from './editar-perfil-usuario/editar-perfil-usuario.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { AdminConfiguracionesComponent } from './admin-configuraciones/admin-con
     InicioSesionAdminComponent,
     AdminCitasAgendadasComponent,
     AdminProfesionalesComponent,
-    AdminConfiguracionesComponent
+    AdminConfiguracionesComponent,
+    EditarPerfilUsuarioComponent
   ],
   imports: [
     BrowserModule,

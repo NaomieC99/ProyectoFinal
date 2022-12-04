@@ -14,6 +14,7 @@ import { InicioSesionAdminComponent } from './inicio-sesion-admin/inicio-sesion-
 import { AdminCitasAgendadasComponent } from './admin-citas-agendadas/admin-citas-agendadas.component';
 import { AdminConfiguracionesComponent } from './admin-configuraciones/admin-configuraciones.component';
 import { AdminProfesionalesComponent } from './admin-profesionales/admin-profesionales.component';
+import { EditarPerfilUsuarioComponent } from './editar-perfil-usuario/editar-perfil-usuario.component';
 
 
 
@@ -33,6 +34,8 @@ const routes: Routes = [
   { path: 'admin-citas-agendadas', component: AdminCitasAgendadasComponent},
   { path: 'admin-configuraciones', component: AdminConfiguracionesComponent},
   { path: 'admin-profesionales', component: AdminProfesionalesComponent},
+  { path: 'editar-perfil-usuario', component: EditarPerfilUsuarioComponent},
+  
 
   
 ];
